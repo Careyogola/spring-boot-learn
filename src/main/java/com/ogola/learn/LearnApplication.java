@@ -5,6 +5,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.ogola.learn.foobar.WelcomeMessage;
+
 @SpringBootApplication
 public class LearnApplication {
 
@@ -15,8 +17,8 @@ public class LearnApplication {
 
 		log.info("Application started successfully!");
 
-		// var welcomeMessage = new WelcomeMessage(); // instance 
-	    // System.out.println(welcomeMessage.getWelcomeMessage());
+		var welcomeMessage = new WelcomeMessage(); // instance 
+	    System.out.println(welcomeMessage.getWelcomeMessage());
 
 
 	}

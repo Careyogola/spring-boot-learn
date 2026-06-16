@@ -1,4 +1,4 @@
-package foobar;
+package com.ogola.learn.foobar;
 
 public class WelcomeMessage {
 
