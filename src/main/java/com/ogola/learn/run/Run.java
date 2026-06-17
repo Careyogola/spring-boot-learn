@@ -61,8 +61,4 @@ public class Run {
     public Location getLocation() {
         return location;
     }
-
-
-
-
 }
